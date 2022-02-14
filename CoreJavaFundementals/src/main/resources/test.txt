@@ -1,0 +1,71 @@
+I am going to write into file
+
+
+argument[0].scrolltoView(true):
+it will look for all the elements argument , it will select first 0 ,
+it willscroll view, we are passing true , means we are to do both operations,
+
+driver.findElement(By.xpath(""))
+
+it will scroll the element  if its not getting,
+if it getting it will do something
+
+
+WebTabels
+
+<html>
+<head>
+<tittle>Selenium</tittle>
+</head>
+<body>
+<table align="center">
+  <tr>
+    <th>Name</th>
+    <th>Address</th>
+  </tr>     <!-- Table headers 2
+                tr table rows 3
+                 Each tr consist td -->
+  <tr>
+    <td>Surendra</td>     
+    <td>Vizag</td>
+  </tr>
+  <tr>
+    <td>Vinit</td>
+    <td>Bihar</td>
+    
+  </tr>
+</table>
+
+</body>
+</html>
+
+
+Suppouse we see the above table
+Any webtable if we want to  find how many rows are there by using this xpath
+//table[@id='customers']/tbody/tr
+
+
+In the above table
+Suppouse we want to check the company name available or not in first column how we achevie,
+
+
+In that seven rows is there
+
+isDisplayed():
+The isDisplayed method in Selenium verifies if a certain element is present and displayed. If the element is displayed, then the value returned is true. If not, then the value returned is false.
+boolean eleSelected= driver.findElement(By.xpath("xpath")).isDisplayed();
+
+isEnabled():
+This method verifies if an element is enabled. If the element is enabled, it returns a true value. If not, it returns a false value.
+sysntax:
+boolean eleEnabled= driver.findElement(By.xpath("xpath")).isEnabled();
+
+isSelected():
+This method is often used on radio buttons, checkboxes or options in a menu. It is used to determine is an element is selected. If the specified element is selected, the value returned is true. If not, the value returned is false.
+syntax:
+boolean elePresent = driver.findElement(By.xpath("xpath")).isSelected();
+
+
+https://github.com/sudhakarth2009/Orenge65.git
+sudhakarth2009@gmail.com
+Bhavasri@4321
